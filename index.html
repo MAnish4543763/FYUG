@@ -106,8 +106,9 @@ objects[pagesId-1]="<< /Type /Pages /Kids ["+pageIds.map(i=>i+" 0 R").join(" ")+
 let pdf="%PDF-1.4\n",offsets=[0];objects.forEach((o,i)=>{offsets.push(pdf.length);pdf+=(i+1)+" 0 obj\n"+o+"\nendobj\n"});let xref=pdf.length;pdf+="xref\n0 "+(objects.length+1)+"\n0000000000 65535 f \n";for(let i=1;i<offsets.length;i++)pdf+=String(offsets[i]).padStart(10,"0")+" 00000 n \n";pdf+="trailer\n<< /Size "+(objects.length+1)+" /Root "+catalogId+" 0 R >>\nstartxref\n"+xref+"\n%%EOF";return new Blob([pdf],{type:"application/pdf"})
 }
 function openPdf(title,subtitle,sections){let blob=makePdf(title,subtitle,sections),url=URL.createObjectURL(blob),win=window.open(url,"_blank");if(!win){let a=document.createElement("a");a.href=url;a.download=title.replace(/[^a-z0-9]+/gi,"_")+".pdf";a.click()}setTimeout(()=>URL.revokeObjectURL(url),60000)}
+function getUnitStudy(s,ui){if(s.id==='dsc101'){if(ui===0)return unitStudy.dsc101[0];if(ui===1){let a=unitStudy.dsc101[1],b=unitStudy.dsc101[2];return {intro:a.intro+" "+b.intro,points:[...a.points,...b.points],short:[...a.short,...b.short],long:a.long+" "+b.long}}if(ui===2)return unitStudy.dsc101[3];if(ui===3)return unitStudy.dsc101[4];return unitStudy.dsc101[5]}return unitStudy.dsc102[ui]}
 function openChapter(ui,ti,mode){
- let s=subjects.find(x=>x.id===current),u=s.units[ui],topic=u.topics[ti],key=s.id==='dsc101'?ui:ui+5,data=unitStudy[s.id][ui],chapterNo=ti+1;
+ let s=subjects.find(x=>x.id===current),u=s.units[ui],topic=u.topics[ti],data=getUnitStudy(s,ui),chapterNo=ti+1;
  if(mode==='pyq'){openPdf("PYQ Status - "+topic,s.title+" | "+u.title,[{heading:"Previous-year question status",body:["No verified previous-year question has been attached to this chapter yet.","This PDF intentionally does not invent past-paper questions or exam years. Add an original question paper or a verifiable source to classify questions by year.","Practice questions in the study hub are model questions and must not be described as official PYQs."]}]);return}
  let sections=[];
  if(mode==='notes'){
