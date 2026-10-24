@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="FYUG Study Hub for Assam University BA FYUGP Semester 1 study materials.">
+<title>FYUG Study Hub | Assam University</title>
+<style>
+:root{--navy:#102748;--blue:#2468b4;--pale:#eef4fb;--ink:#17263a;--muted:#63748b;--line:#dce5ef;--white:#fff;--bg:#f5f7fb}
+*{box-sizing:border-box}body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;background:var(--bg);color:var(--ink)}
+button,input,select{font:inherit}button,a{cursor:pointer}a{color:var(--blue)}.app{display:grid;grid-template-columns:250px minmax(0,1fr);min-height:100vh}
+aside{background:var(--navy);color:#fff;padding:25px 17px;display:flex;flex-direction:column;gap:26px}
+.brand{display:flex;align-items:center;gap:12px;padding:0 8px}.brand-icon{width:43px;height:43px;border-radius:13px;background:#2f78c8;display:grid;place-items:center;font-size:22px}.brand strong{display:block;font-size:17px}.brand small{display:block;color:#b7c9df;margin-top:3px}
+.nav-label{font-size:10px;letter-spacing:1.5px;color:#91a9c7;font-weight:800;padding:0 12px;margin-bottom:7px}.nav{display:grid;gap:5px}.nav button{border:0;text-align:left;color:#d6e3f4;background:transparent;padding:12px;border-radius:10px;font-size:13px}.nav button:hover,.nav button.active{background:#24466f;color:white}.side-note{margin-top:auto;color:#a9bfd8;font-size:11px;line-height:1.6;padding:10px}
+main{min-width:0}.topbar{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:23px 32px;background:white;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:3}.topbar h1{font-size:22px;margin:0}.topbar p{margin:5px 0 0;color:var(--muted);font-size:12px}.search{width:min(360px,45%);padding:12px 14px;border:1px solid var(--line);border-radius:11px;background:#fbfcfe}
+.content{padding:28px 32px;max-width:1450px;margin:auto}.hero{background:linear-gradient(115deg,#102748,#1c5b9c);color:white;padding:28px;border-radius:18px;margin-bottom:23px;display:flex;justify-content:space-between;gap:20px;align-items:center}.hero h2{font-size:25px;margin:0 0 9px}.hero p{margin:0;max-width:650px;line-height:1.6;color:#dce9f8;font-size:13px}.hero .badge{background:#ffffff20;padding:10px 13px;border-radius:12px;font-size:12px;white-space:nowrap}
+.section-head{display:flex;justify-content:space-between;align-items:center;margin:25px 0 14px;gap:12px}.section-head h2{font-size:18px;margin:0}.muted{color:var(--muted);font-size:12px}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.card{background:white;border:1px solid var(--line);border-radius:15px;padding:20px;box-shadow:0 3px 12px #17263a05}.card-head{display:flex;justify-content:space-between;align-items:center;gap:10px}.subject-icon{width:42px;height:42px;border-radius:12px;background:var(--pale);display:grid;place-items:center;font-size:20px}.pill{font-size:10px;font-weight:800;background:#edf4fc;color:#245d9b;padding:6px 9px;border-radius:30px}.card h3{margin:14px 0 7px;font-size:17px}.card p{font-size:12px;line-height:1.6;color:var(--muted)}.card-foot{display:flex;justify-content:space-between;align-items:center;margin-top:17px;gap:10px}.btn{border:0;border-radius:9px;background:var(--blue);color:white;padding:10px 13px;font-size:12px;font-weight:750}.btn.secondary{background:#eaf1fa;color:#245d9b}.btn.ghost{background:white;border:1px solid var(--line);color:var(--ink)}.crumbs{font-size:12px;color:var(--muted);margin-bottom:18px}.crumbs button{background:none;border:0;color:var(--blue);padding:0}.unit{background:white;border:1px solid var(--line);border-radius:14px;margin-bottom:15px;overflow:hidden}.unit-title{background:#f8faff;padding:17px 20px;border-bottom:1px solid var(--line)}.unit-title small{color:var(--blue);font-weight:800;text-transform:uppercase;letter-spacing:1px;font-size:10px}.unit-title h3{margin:5px 0 0;font-size:16px}.chapter{padding:17px 20px;border-bottom:1px solid #edf1f6}.chapter:last-child{border-bottom:0}.chapter h4{margin:0 0 12px;font-size:14px;line-height:1.5}.resources{display:flex;flex-wrap:wrap;gap:8px}.resource{border:1px solid var(--line);border-radius:9px;padding:9px 10px;background:white;color:#245d9b;font-size:11px;font-weight:750}.resource:hover{background:var(--pale)}.empty{padding:28px;text-align:center;color:var(--muted);background:white;border:1px dashed #b9c8d9;border-radius:13px;line-height:1.7}.notice{background:#fff9e9;border:1px solid #f2dfaa;border-radius:10px;padding:13px 15px;font-size:12px;line-height:1.6;margin-bottom:16px}.filters{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:18px}.filters input,.filters select{padding:10px;border:1px solid var(--line);border-radius:9px;background:white}.result{padding:14px 0;border-bottom:1px solid var(--line)}.result:last-child{border-bottom:0}.result strong{font-size:13px}.result small{display:block;color:var(--muted);margin:5px 0 9px}.footer{padding:24px 32px;color:var(--muted);font-size:11px}.hidden{display:none!important}
+@media(max-width:850px){.app{grid-template-columns:1fr}aside{padding:12px;gap:12px}.brand{padding:3px 8px}.nav-label,.side-note{display:none}.nav{display:flex;overflow-x:auto}.nav button{white-space:nowrap;padding:10px}.topbar{position:static;padding:18px;align-items:flex-start;flex-direction:column}.search{width:100%}.content{padding:18px}.grid{grid-template-columns:1fr}.hero{align-items:flex-start;flex-direction:column}.hero h2{font-size:22px}.footer{padding:18px}}
+@media(max-width:430px){.resources{display:grid;grid-template-columns:1fr 1fr}.resource{line-height:1.4;text-align:left}.card-foot{align-items:flex-start;flex-direction:column}.hero .badge{white-space:normal}}
+</style>
+</head>
+<body>
+<div class="app">
+<aside>
+ <div class="brand"><div class="brand-icon">📚</div><div><strong>FYUG Study Hub</strong><small>Assam University</small></div></div>
+ <div><div class="nav-label">STUDY SPACE</div><nav class="nav">
+ <button class="active" data-page="home">⌂ &nbsp; Dashboard</button><button data-page="subjects">▦ &nbsp; All Subjects</button><button data-page="notes">▤ &nbsp; Detailed Notes</button><button data-page="answers">✎ &nbsp; Question Answers</button><button data-page="pyqs">◷ &nbsp; Previous Year Questions</button><button data-page="revision">✓ &nbsp; Revision Tracker</button>
+ </nav></div>
+ <div class="side-note">Semester 1 · FYUGP / NEP 2020<br>Study resources are syllabus-aligned. PYQs are only labelled verified when a source is provided.</div>
+</aside>
+<main>
+<header class="topbar"><div><h1 id="pageTitle">Your study space</h1><p id="pageSub">Semester 1 · Political Science</p></div><input class="search" id="globalSearch" placeholder="Search Rawls, Fundamental Rights, chapter..." aria-label="Search subjects and chapters"></header>
+<div class="content">
+<section id="homePage">
+ <div class="hero"><div><h2>Learn with clarity. Revise with confidence.</h2><p>Navigate from subject to unit and chapter, then open the matching PDF for detailed notes, 2-mark answers, 10-mark model answers or PYQ status.</p></div><div class="badge">Assam University · FYUGP</div></div>
+ <div class="section-head"><h2>Semester 1 subjects</h2><span class="muted" id="subjectCount"></span></div><div class="grid" id="homeSubjects"></div>
+ <div class="section-head"><h2>Quick access</h2></div><div class="grid" id="quickLinks"></div>
+</section>
+<section id="subjectsPage" class="hidden"><div class="section-head"><h2>All subjects</h2><span class="muted">Choose a subject to explore units</span></div><div class="grid" id="allSubjects"></div></section>
+<section id="detailPage" class="hidden"><div class="crumbs" id="breadcrumbs"></div><div id="detailNotice" class="notice hidden"></div><div id="detailContent"></div></section>
+<section id="notesPage" class="hidden"><div class="section-head"><h2>Detailed notes</h2><span class="muted">Chapter-wise PDF library</span></div><div id="notesList"></div></section>
+<section id="answersPage" class="hidden"><div class="section-head"><h2>Question answers</h2><span class="muted">2-mark and 10-mark resources stay separate</span></div><div id="answersList"></div></section>
+<section id="pyqsPage" class="hidden"><div class="notice">Only verified papers belong in the PYQ collection. Model practice questions are not represented as actual past examination questions.</div><div class="filters"><select id="pyqSubject"><option value="">All subjects</option></select><select id="pyqUnit"><option value="">All units</option></select><input id="pyqYear" placeholder="Year (e.g. 2024)" inputmode="numeric"></div><div id="pyqList"></div></section>
+<section id="revisionPage" class="hidden"><div class="section-head"><h2>Revision tracker</h2><span class="muted">Saved in this browser</span></div><div class="notice">Tick a chapter after revising it. Progress is stored locally in this browser; it is not shared between devices.</div><div id="revisionList"></div></section>
+</div><div class="footer">FYUG Study Hub · Study resources are for revision and should be checked against course instructions and prescribed readings.</div>
+</main></div>
+<script>
+const RESOURCE_LABELS={
+"detailed-notes":"📘 Detailed Notes PDF",
+"2-mark-answers":"✍ 2-mark Answers PDF",
+"10-mark-answers":"📝 10-mark Answers PDF",
+"pyqs":"🕘 Chapter PYQs PDF"
+};
+let DATA=null, currentSubject=null, currentPage="home";
+const $=id=>document.getElementById(id);
+async function init(){
+ try{
+  const response=await fetch("data.json");
+  if(!response.ok)throw new Error("Could not load data.json");
+  DATA=await response.json();
+  $("subjectCount").textContent=DATA.subjects.length+" subjects · Semester 1";
+  renderSubjects(); renderResourcePages(); renderPyqFilters(); renderRevision();
+ }catch(e){$("homeSubjects").innerHTML='<div class="empty">Unable to load the study library. Make sure data.json is included beside index.html.</div>';}
+}
+function allChapters(){return DATA.subjects.flatMap(s=>s.units.flatMap(u=>u.chapters.map(c=>({...c,subject:s,unit:u}))));}
+function card(s){return `<article class="card"><div class="card-head"><div class="subject-icon">📘</div><span class="pill">${s.id}</span></div><h3>${esc(s.title)}</h3><p>${s.units.length} units · ${s.units.reduce((n,u)=>n+u.chapters.length,0)} syllabus chapters. Four separate resource types per chapter.</p><div class="card-foot"><span class="muted">Semester ${s.semester}</span><button class="btn" onclick="openSubject('${s.id}')">Open subject →</button></div></article>`}
+function renderSubjects(q=""){
+ const filtered=DATA.subjects.filter(s=>(s.id+" "+s.title+" "+s.units.map(u=>u.title+" "+u.chapters.map(c=>c.title).join(" ")).join(" ")).toLowerCase().includes(q.toLowerCase()));
+ $("homeSubjects").innerHTML=filtered.map(card).join("")||'<div class="empty">No matching subjects.</div>';
+ $("allSubjects").innerHTML=filtered.map(card).join("")||'<div class="empty">No matching subjects.</div>';
+ $("quickLinks").innerHTML=[["Detailed Notes","notes"],["Question Answers","answers"],["Previous Year Questions","pyqs"],["Revision Tracker","revision"]].map(([t,p])=>`<article class="card"><h3>${t}</h3><p>Browse chapter-specific resources.</p><button class="btn secondary" onclick="showPage('${p}')">Open section →</button></article>`).join("");
+}
+function showPage(page){
+ currentPage=page;
+ document.querySelectorAll("main section").forEach(s=>s.classList.add("hidden"));
+ $(page+"Page").classList.remove("hidden");
+ document.querySelectorAll(".nav button").forEach(b=>b.classList.toggle("active",b.dataset.page===page));
+ const titles={home:["Your study space","Semester 1 · FYUGP / NEP 2020"],subjects:["All Subjects","Select a subject, then a unit and chapter"],notes:["Detailed Notes","Chapter-wise PDFs"],answers:["Question Answers","Separate 2-mark and 10-mark materials"],pyqs:["Previous Year Questions","Verified papers only"],revision:["Revision Tracker","Track your reading progress"]};
+ if(titles[page]){$("pageTitle").textContent=titles[page][0];$("pageSub").textContent=titles[page][1]}
+ window.scrollTo({top:0,behavior:"smooth"});
+}
+function openSubject(id){
+ currentSubject=DATA.subjects.find(s=>s.id===id);
+ showPage("detail");$("detailPage").classList.remove("hidden");
+ $("pageTitle").textContent=currentSubject.title;$("pageSub").textContent=currentSubject.id+" · Semester 1";
+ $("breadcrumbs").innerHTML=`<button onclick="showPage('home')">Home</button> / <button onclick="showPage('subjects')">Subjects</button> / ${esc(currentSubject.title)}`;
+ $("detailNotice").classList.add("hidden");
+ $("detailContent").innerHTML=currentSubject.units.map((u,ui)=>`<div class="unit"><div class="unit-title"><small>Unit ${ui+1}</small><h3>${esc(u.title)}</h3></div>${u.chapters.map((c,ci)=>chapterMarkup(currentSubject,u,c,ui,ci)).join("")}</div>`).join("");
+ $("detailPage").classList.remove("hidden");
+}
+function chapterMarkup(s,u,c,ui,ci){
+ const links=c.resources.map(r=>`<button class="resource" onclick="openResource('${escAttr(r.path)}','${escAttr(r.title)}')">${RESOURCE_LABELS[r.type]}</button>`).join("");
+ return `<article class="chapter"><h4>Chapter ${ci+1}. ${esc(c.title)}</h4><div class="resources">${links}</div></article>`;
+}
+function openResource(path,title){
+ const url=new URL(path,document.baseURI);
+ fetch(url,{method:"HEAD"}).then(r=>{
+  if(!r.ok)throw new Error("missing");
+  window.open(url.href,"_blank","noopener");
+ }).catch(()=>showMissing(path,title));
+}
+function showMissing(path,title){
+ const message=`PDF not uploaded yet: ${title}. Missing file: ${path}`;
+ const box=document.createElement("div");box.className="notice";box.textContent=message;
+ const page=$("detailPage");page.prepend(box);window.scrollTo({top:0,behavior:"smooth"});
+}
+function resourceRows(types,subjectFilter=""){
+ const chapters=allChapters().filter(x=>!subjectFilter||x.subject.id===subjectFilter);
+ return chapters.map(x=>({x,resources:x.resources.filter(r=>types.includes(r.type))}));
+}
+function renderResourcePages(){
+ $("notesList").innerHTML=resourceRows(["detailed-notes"]).map(({x,resources})=>resourceRow(x,resources)).join("");
+ $("answersList").innerHTML=resourceRows(["2-mark-answers","10-mark-answers"]).map(({x,resources})=>resourceRow(x,resources)).join("");
+}
+function resourceRow(x,resources){
+ return `<div class="result"><strong>${esc(x.title)}</strong><small>${x.subject.id} · Unit ${x.unit.id}: ${esc(x.unit.title)} · ${esc(x.subject.title)}</small><div class="resources">${resources.map(r=>`<button class="resource" onclick="openResource('${escAttr(r.path)}','${escAttr(r.title)}')">${RESOURCE_LABELS[r.type]}</button>`).join("")}</div></div>`;
+}
+function renderPyqFilters(){
+ $("pyqSubject").innerHTML='<option value="">All subjects</option>'+DATA.subjects.map(s=>`<option value="${s.id}">${s.id} · ${esc(s.title)}</option>`).join("");
+ $("pyqSubject").addEventListener("change",renderPyqs);
+ $("pyqUnit").addEventListener("change",renderPyqs);
+ $("pyqYear").addEventListener("input",renderPyqs);
+ const updateUnits=()=>{const s=DATA.subjects.find(s=>s.id===$("pyqSubject").value);$("pyqUnit").innerHTML='<option value="">All units</option>'+(s?s.units.map(u=>`<option value="${u.id}">Unit ${u.id} · ${esc(u.title)}</option>`).join(""):"");renderPyqs()};
+ $("pyqSubject").addEventListener("change",updateUnits);renderPyqs();
+}
+function renderPyqs(){
+ if(!DATA)return;
+ const sid=$("pyqSubject").value,uid=$("pyqUnit").value,year=$("pyqYear").value.trim();
+ const rows=allChapters().filter(x=>(!sid||x.subject.id===sid)&&(!uid||String(x.unit.id)===uid));
+ $("pyqList").innerHTML=rows.map(x=>`<div class="result"><strong>${esc(x.title)}</strong><small>${x.subject.id} · Unit ${x.unit.id}: ${esc(x.unit.title)} · ${esc(x.subject.title)}</small><p class="muted">No verified PYQs uploaded yet. ${year?"No verified year-filtered papers are available for "+esc(year)+".":""}</p><button class="resource" onclick="openResource('${escAttr(x.resources.find(r=>r.type==='pyqs').path)}','PYQ status')">Open PYQ status PDF</button></div>`).join("")||'<div class="empty">No chapters match these filters.</div>';
+}
+function renderRevision(){
+ const saved=JSON.parse(localStorage.getItem("fyug-revision")||"{}");
+ $("revisionList").innerHTML=DATA.subjects.map(s=>`<div class="unit"><div class="unit-title"><h3>${esc(s.id)} · ${esc(s.title)}</h3></div>${s.units.map(u=>`<div class="chapter"><strong>${esc(u.title)}</strong>${u.chapters.map(c=>{let key=s.id+"-"+u.id+"-"+c.id;return `<label style="display:flex;gap:9px;margin:12px 0;font-size:12px"><input type="checkbox" ${saved[key]?"checked":""} onchange="toggleRevision('${key}',this.checked)"><span>${esc(c.title)}</span></label>`}).join("")}</div>`).join("")}</div>`).join("");
+}
+function toggleRevision(key,val){const s=JSON.parse(localStorage.getItem("fyug-revision")||"{}");s[key]=val;localStorage.setItem("fyug-revision",JSON.stringify(s))}
+function globalSearch(q){
+ q=q.toLowerCase().trim();if(!q){renderSubjects();return}
+ const matches=allChapters().filter(x=>(x.title+" "+x.subject.title+" "+x.subject.id+" "+x.unit.title).toLowerCase().includes(q));
+ showPage("subjects");
+ $("allSubjects").innerHTML=matches.length?matches.map(x=>`<article class="card"><span class="pill">${x.subject.id} · Unit ${x.unit.id}</span><h3>${esc(x.title)}</h3><p>${esc(x.subject.title)} · ${esc(x.unit.title)}</p><button class="btn" onclick="openSubject('${x.subject.id}')">Open chapter location →</button><div class="resources" style="margin-top:12px">${x.resources.map(r=>`<button class="resource" onclick="openResource('${escAttr(r.path)}','${escAttr(r.title)}')">${RESOURCE_LABELS[r.type]}</button>`).join("")}</div></article>`).join(""):'<div class="empty">No matching subjects, chapters or documents. Try another term.</div>';
+ $("pageTitle").textContent="Search results";$("pageSub").textContent=matches.length+" matching chapters";
+}
+function esc(s){return String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}
+function escAttr(s){return esc(s).replace(/`/g,"&#96;")}
+document.querySelectorAll(".nav button").forEach(b=>b.addEventListener("click",()=>showPage(b.dataset.page)));
+$("globalSearch").addEventListener("input",e=>globalSearch(e.target.value));
+init();
+</script>
+</body></html>

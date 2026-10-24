@@ -1,0 +1,1039 @@
+{
+  "version": 1,
+  "title": "FYUG Study Hub",
+  "university": "Assam University",
+  "semester": 1,
+  "subjects": [
+    {
+      "id": "DSC-101",
+      "title": "Introduction to Political Theory",
+      "semester": 1,
+      "units": [
+        {
+          "id": 1,
+          "title": "Politics and Political Theory",
+          "chapters": [
+            {
+              "id": 1,
+              "title": "Meaning of politics and its difference from Political Science and Political Theory",
+              "topics": [
+                "Meaning of politics and its difference from Political Science and Political Theory"
+              ],
+              "resources": [
+                {
+                  "type": "detailed-notes",
+                  "title": "Chapter-wise Detailed Notes PDF",
+                  "path": "documents/DSC-101/Unit-1/Chapter-1/detailed-notes.pdf",
+                  "description": "Model study resource"
+                },
+                {
+                  "type": "2-mark-answers",
+                  "title": "2-mark Question Answers PDF",
+                  "path": "documents/DSC-101/Unit-1/Chapter-1/2-mark-answers.pdf",
+                  "description": "Model study resource"
+                },
+                {
+                  "type": "10-mark-answers",
+                  "title": "10-mark Question Answers PDF",
+                  "path": "documents/DSC-101/Unit-1/Chapter-1/10-mark-answers.pdf",
+                  "description": "Model study resource"
+                },
+                {
+                  "type": "pyqs",
+                  "title": "Previous Year Questions (PYQs) PDF",
+                  "path": "documents/DSC-101/Unit-1/Chapter-1/pyqs.pdf",
+                  "description": "Verified PYQs only; currently none uploaded"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "title": "Meaning, nature, scope and relevance of Political Theory",
+              "topics": [
+                "Meaning, nature, scope and relevance of Political Theory"
+              ],
+              "resources": [
+                {
+                  "type": "detailed-notes",
+                  "title": "Chapter-wise Detailed Notes PDF",
+                  "path": "documents/DSC-101/Unit-1/Chapter-2/detailed-notes.pdf",
+                  "description": "Model study resource"
+                },
+                {
+                  "type": "2-mark-answers",
+                  "title": "2-mark Question Answers PDF",
+                  "path": "documents/DSC-101/Unit-1/Chapter-2/2-mark-answers.pdf",
+                  "description": "Model study resource"
+                },
+                {
+                  "type": "10-mark-answers",
+                  "title": "10-mark Question Answers PDF",
+                  "path": "documents/DSC-101/Unit-1/Chapter-2/10-mark-answers.pdf",
+                  "description": "Model study resource"
+                },
+                {
+                  "type": "pyqs",
+                  "title": "Previous Year Questions (PYQs) PDF",
+                  "path": "documents/DSC-101/Unit-1/Chapter-2/pyqs.pdf",
+                  "description": "Verified PYQs only; currently none uploaded"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Basic Concepts I",
+          "chapters": [
+            {
+              "id": 1,
+              "title": "Democracy: meaning, forms, characteristics, merits, demerits and preconditions",
+              "topics": [
+                "Democracy: meaning, forms, characteristics, merits, demerits and preconditions"
+              ],
+              "resources": [
+                {
+                  "type": "detailed-notes",
+                  "title": "Chapter-wise Detailed Notes PDF",
+                  "path": "documents/DSC-101/Unit-2/Chapter-1/detailed-notes.pdf",
+                  "description": "Model study resource"
+                },
+                {
+                  "type": "2-mark-answers",
+                  "title": "2-mark Question Answers PDF",
+                  "path": "documents/DSC-101/Unit-2/Chapter-1/2-mark-answers.pdf",
+                  "description": "Model study resource"
+                },
+                {
+                  "type": "10-mark-answers",
+                  "title": "10-mark Question Answers PDF",
+                  "path": "documents/DSC-101/Unit-2/Chapter-1/10-mark-answers.pdf",
+                  "description": "Model study resource"
+                },
+                {
+                  "type": "pyqs",
+                  "title": "Previous Year Questions (PYQs) PDF",
+                  "path": "documents/DSC-101/Unit-2/Chapter-1/pyqs.pdf",
+                  "description": "Verified PYQs only; currently none uploaded"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "title": "Liberty: definition, features, forms and safeguards",
+              "topics": [
+                "Liberty: definition, features, forms and safeguards"
+              ],
+              "resources": [
+                {
+                  "type": "detailed-notes",
+                  "title": "Chapter-wise Detailed Notes PDF",
+                  "path": "documents/DSC-101/Unit-2/Chapter-2/detailed-notes.pdf",
+                  "description": "Model study resource"
+                },
+                {
+                  "type": "2-mark-answers",
+                  "title": "2-mark Question Answers PDF",
+                  "path": "documents/DSC-101/Unit-2/Chapter-2/2-mark-answers.pdf",
+                  "description": "Model study resource"
+                },
+                {
+                  "type": "10-mark-answers",
+                  "title": "10-mark Question Answers PDF",
+                  "path": "documents/DSC-101/Unit-2/Chapter-2/10-mark-answers.pdf",
+                  "description": "Model study resource"
+                },
+                {
+                  "type": "pyqs",
+                  "title": "Previous Year Questions (PYQs) PDF",
+                  "path": "documents/DSC-101/Unit-2/Chapter-2/pyqs.pdf",
+                  "description": "Verified PYQs only; currently none uploaded"
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "title": "Equality: meaning, features, kinds and relationship with liberty",
+              "topics": [
+                "Equality: meaning, features, kinds and relationship with liberty"
+              ],
+              "resources": [
+                {
+                  "type": "detailed-notes",
+                  "title": "Chapter-wise Detailed Notes PDF",
+                  "path": "documents/DSC-101/Unit-2/Chapter-3/detailed-notes.pdf",
+                  "description": "Model study resource"
+                },
+                {
+                  "type": "2-mark-answers",
+                  "title": "2-mark Question Answers PDF",
+                  "path": "documents/DSC-101/Unit-2/Chapter-3/2-mark-answers.pdf",
+                  "description": "Model study resource"
+                },
+                {
+                  "type": "10-mark-answers",
+                  "title": "10-mark Question Answers PDF",
+                  "path": "documents/DSC-101/Unit-2/Chapter-3/10-mark-answers.pdf",
+                  "description": "Model study resource"
+                },
+                {
+                  "type": "pyqs",
+                  "title": "Previous Year Questions (PYQs) PDF",
+                  "path": "documents/DSC-101/Unit-2/Chapter-3/pyqs.pdf",
+                  "description": "Verified PYQs only; currently none uploaded"
+                }
+              ]
+            },
+            {
+              "id": 4,
+              "title": "Justice: development, types and Rawls theory",
+              "topics": [
+                "Justice: development, types and Rawls theory"
+              ],
+              "resources": [
+                {
+                  "type": "detailed-notes",
+                  "title": "Chapter-wise Detailed Notes PDF",
+                  "path": "documents/DSC-101/Unit-2/Chapter-4/detailed-notes.pdf",
+                  "description": "Model study resource"
+                },
+                {
+                  "type": "2-mark-answers",
+                  "title": "2-mark Question Answers PDF",
+                  "path": "documents/DSC-101/Unit-2/Chapter-4/2-mark-answers.pdf",
+                  "description": "Model study resource"
+                },
+                {
+                  "type": "10-mark-answers",
+                  "title": "10-mark Question Answers PDF",
+                  "path": "documents/DSC-101/Unit-2/Chapter-4/10-mark-answers.pdf",
+                  "description": "Model study resource"
+                },
+                {
+                  "type": "pyqs",
+                  "title": "Previous Year Questions (PYQs) PDF",
+                  "path": "documents/DSC-101/Unit-2/Chapter-4/pyqs.pdf",
+                  "description": "Verified PYQs only; currently none uploaded"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Basic Concepts II",
+          "chapters": [
+            {
+              "id": 1,
+              "title": "Citizenship: meaning, features, genesis, development, acquisition and loss",
+              "topics": [
+                "Citizenship: meaning, features, genesis, development, acquisition and loss"
+              ],
+              "resources": [
+                {
+                  "type": "detailed-notes",
+                  "title": "Chapter-wise Detailed Notes PDF",
+                  "path": "documents/DSC-101/Unit-3/Chapter-1/detailed-notes.pdf",
+                  "description": "Model study resource"
+                },
+                {
+                  "type": "2-mark-answers",
+                  "title": "2-mark Question Answers PDF",
+                  "path": "documents/DSC-101/Unit-3/Chapter-1/2-mark-answers.pdf",
+                  "description": "Model study resource"
+                },
+                {
+                  "type": "10-mark-answers",
+                  "title": "10-mark Question Answers PDF",
+                  "path": "documents/DSC-101/Unit-3/Chapter-1/10-mark-answers.pdf",
+                  "description": "Model study resource"
+                },
+                {
+                  "type": "pyqs",
+                  "title": "Previous Year Questions (PYQs) PDF",
+                  "path": "documents/DSC-101/Unit-3/Chapter-1/pyqs.pdf",
+                  "description": "Verified PYQs only; currently none uploaded"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "title": "Rights: meaning, features, kinds, human rights and the United Nations",
+              "topics": [
+                "Rights: meaning, features, kinds, human rights and the United Nations"
+              ],
+              "resources": [
+                {
+                  "type": "detailed-notes",
+                  "title": "Chapter-wise Detailed Notes PDF",
+                  "path": "documents/DSC-101/Unit-3/Chapter-2/detailed-notes.pdf",
+                  "description": "Model study resource"
+                },
+                {
+                  "type": "2-mark-answers",
+                  "title": "2-mark Question Answers PDF",
+                  "path": "documents/DSC-101/Unit-3/Chapter-2/2-mark-answers.pdf",
+                  "description": "Model study resource"
+                },
+                {
+                  "type": "10-mark-answers",
+                  "title": "10-mark Question Answers PDF",
+                  "path": "documents/DSC-101/Unit-3/Chapter-2/10-mark-answers.pdf",
+                  "description": "Model study resource"
+                },
+                {
+                  "type": "pyqs",
+                  "title": "Previous Year Questions (PYQs) PDF",
+                  "path": "documents/DSC-101/Unit-3/Chapter-2/pyqs.pdf",
+                  "description": "Verified PYQs only; currently none uploaded"
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "title": "State: definition, evolution and relationship between state and civil society",
+              "topics": [
+                "State: definition, evolution and relationship between state and civil society"
+              ],
+              "resources": [
+                {
+                  "type": "detailed-notes",
+                  "title": "Chapter-wise Detailed Notes PDF",
+                  "path": "documents/DSC-101/Unit-3/Chapter-3/detailed-notes.pdf",
+                  "description": "Model study resource"
+                },
+                {
+                  "type": "2-mark-answers",
+                  "title": "2-mark Question Answers PDF",
+                  "path": "documents/DSC-101/Unit-3/Chapter-3/2-mark-answers.pdf",
+                  "description": "Model study resource"
+                },
+                {
+                  "type": "10-mark-answers",
+                  "title": "10-mark Question Answers PDF",
+                  "path": "documents/DSC-101/Unit-3/Chapter-3/10-mark-answers.pdf",
+                  "description": "Model study resource"
+                },
+                {
+                  "type": "pyqs",
+                  "title": "Previous Year Questions (PYQs) PDF",
+                  "path": "documents/DSC-101/Unit-3/Chapter-3/pyqs.pdf",
+                  "description": "Verified PYQs only; currently none uploaded"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Debates I",
+          "chapters": [
+            {
+              "id": 1,
+              "title": "Democracy versus economic growth",
+              "topics": [
+                "Democracy versus economic growth"
+              ],
+              "resources": [
+                {
+                  "type": "detailed-notes",
+                  "title": "Chapter-wise Detailed Notes PDF",
+                  "path": "documents/DSC-101/Unit-4/Chapter-1/detailed-notes.pdf",
+                  "description": "Model study resource"
+                },
+                {
+                  "type": "2-mark-answers",
+                  "title": "2-mark Question Answers PDF",
+                  "path": "documents/DSC-101/Unit-4/Chapter-1/2-mark-answers.pdf",
+                  "description": "Model study resource"
+                },
+                {
+                  "type": "10-mark-answers",
+                  "title": "10-mark Question Answers PDF",
+                  "path": "documents/DSC-101/Unit-4/Chapter-1/10-mark-answers.pdf",
+                  "description": "Model study resource"
+                },
+                {
+                  "type": "pyqs",
+                  "title": "Previous Year Questions (PYQs) PDF",
+                  "path": "documents/DSC-101/Unit-4/Chapter-1/pyqs.pdf",
+                  "description": "Verified PYQs only; currently none uploaded"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "title": "Censorship: justification, grounds and limits",
+              "topics": [
+                "Censorship: justification, grounds and limits"
+              ],
+              "resources": [
+                {
+                  "type": "detailed-notes",
+                  "title": "Chapter-wise Detailed Notes PDF",
+                  "path": "documents/DSC-101/Unit-4/Chapter-2/detailed-notes.pdf",
+                  "description": "Model study resource"
+                },
+                {
+                  "type": "2-mark-answers",
+                  "title": "2-mark Question Answers PDF",
+                  "path": "documents/DSC-101/Unit-4/Chapter-2/2-mark-answers.pdf",
+                  "description": "Model study resource"
+                },
+                {
+                  "type": "10-mark-answers",
+                  "title": "10-mark Question Answers PDF",
+                  "path": "documents/DSC-101/Unit-4/Chapter-2/10-mark-answers.pdf",
+                  "description": "Model study resource"
+                },
+                {
+                  "type": "pyqs",
+                  "title": "Previous Year Questions (PYQs) PDF",
+                  "path": "documents/DSC-101/Unit-4/Chapter-2/pyqs.pdf",
+                  "description": "Verified PYQs only; currently none uploaded"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Debates II",
+          "chapters": [
+            {
+              "id": 1,
+              "title": "Protective discrimination and fairness",
+              "topics": [
+                "Protective discrimination and fairness"
+              ],
+              "resources": [
+                {
+                  "type": "detailed-notes",
+                  "title": "Chapter-wise Detailed Notes PDF",
+                  "path": "documents/DSC-101/Unit-5/Chapter-1/detailed-notes.pdf",
+                  "description": "Model study resource"
+                },
+                {
+                  "type": "2-mark-answers",
+                  "title": "2-mark Question Answers PDF",
+                  "path": "documents/DSC-101/Unit-5/Chapter-1/2-mark-answers.pdf",
+                  "description": "Model study resource"
+                },
+                {
+                  "type": "10-mark-answers",
+                  "title": "10-mark Question Answers PDF",
+                  "path": "documents/DSC-101/Unit-5/Chapter-1/10-mark-answers.pdf",
+                  "description": "Model study resource"
+                },
+                {
+                  "type": "pyqs",
+                  "title": "Previous Year Questions (PYQs) PDF",
+                  "path": "documents/DSC-101/Unit-5/Chapter-1/pyqs.pdf",
+                  "description": "Verified PYQs only; currently none uploaded"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "title": "State intervention in the family",
+              "topics": [
+                "State intervention in the family"
+              ],
+              "resources": [
+                {
+                  "type": "detailed-notes",
+                  "title": "Chapter-wise Detailed Notes PDF",
+                  "path": "documents/DSC-101/Unit-5/Chapter-2/detailed-notes.pdf",
+                  "description": "Model study resource"
+                },
+                {
+                  "type": "2-mark-answers",
+                  "title": "2-mark Question Answers PDF",
+                  "path": "documents/DSC-101/Unit-5/Chapter-2/2-mark-answers.pdf",
+                  "description": "Model study resource"
+                },
+                {
+                  "type": "10-mark-answers",
+                  "title": "10-mark Question Answers PDF",
+                  "path": "documents/DSC-101/Unit-5/Chapter-2/10-mark-answers.pdf",
+                  "description": "Model study resource"
+                },
+                {
+                  "type": "pyqs",
+                  "title": "Previous Year Questions (PYQs) PDF",
+                  "path": "documents/DSC-101/Unit-5/Chapter-2/pyqs.pdf",
+                  "description": "Verified PYQs only; currently none uploaded"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DSC-102",
+      "title": "Indian Government & Politics",
+      "semester": 1,
+      "units": [
+        {
+          "id": 1,
+          "title": "Constitution",
+          "chapters": [
+            {
+              "id": 1,
+              "title": "Making, salient features and philosophy of the Indian Constitution",
+              "topics": [
+                "Making, salient features and philosophy of the Indian Constitution"
+              ],
+              "resources": [
+                {
+                  "type": "detailed-notes",
+                  "title": "Chapter-wise Detailed Notes PDF",
+                  "path": "documents/DSC-102/Unit-1/Chapter-1/detailed-notes.pdf",
+                  "description": "Model study resource"
+                },
+                {
+                  "type": "2-mark-answers",
+                  "title": "2-mark Question Answers PDF",
+                  "path": "documents/DSC-102/Unit-1/Chapter-1/2-mark-answers.pdf",
+                  "description": "Model study resource"
+                },
+                {
+                  "type": "10-mark-answers",
+                  "title": "10-mark Question Answers PDF",
+                  "path": "documents/DSC-102/Unit-1/Chapter-1/10-mark-answers.pdf",
+                  "description": "Model study resource"
+                },
+                {
+                  "type": "pyqs",
+                  "title": "Previous Year Questions (PYQs) PDF",
+                  "path": "documents/DSC-102/Unit-1/Chapter-1/pyqs.pdf",
+                  "description": "Verified PYQs only; currently none uploaded"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "title": "Fundamental Rights and Fundamental Duties",
+              "topics": [
+                "Fundamental Rights and Fundamental Duties"
+              ],
+              "resources": [
+                {
+                  "type": "detailed-notes",
+                  "title": "Chapter-wise Detailed Notes PDF",
+                  "path": "documents/DSC-102/Unit-1/Chapter-2/detailed-notes.pdf",
+                  "description": "Model study resource"
+                },
+                {
+                  "type": "2-mark-answers",
+                  "title": "2-mark Question Answers PDF",
+                  "path": "documents/DSC-102/Unit-1/Chapter-2/2-mark-answers.pdf",
+                  "description": "Model study resource"
+                },
+                {
+                  "type": "10-mark-answers",
+                  "title": "10-mark Question Answers PDF",
+                  "path": "documents/DSC-102/Unit-1/Chapter-2/10-mark-answers.pdf",
+                  "description": "Model study resource"
+                },
+                {
+                  "type": "pyqs",
+                  "title": "Previous Year Questions (PYQs) PDF",
+                  "path": "documents/DSC-102/Unit-1/Chapter-2/pyqs.pdf",
+                  "description": "Verified PYQs only; currently none uploaded"
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "title": "Directive Principles of State Policy",
+              "topics": [
+                "Directive Principles of State Policy"
+              ],
+              "resources": [
+                {
+                  "type": "detailed-notes",
+                  "title": "Chapter-wise Detailed Notes PDF",
+                  "path": "documents/DSC-102/Unit-1/Chapter-3/detailed-notes.pdf",
+                  "description": "Model study resource"
+                },
+                {
+                  "type": "2-mark-answers",
+                  "title": "2-mark Question Answers PDF",
+                  "path": "documents/DSC-102/Unit-1/Chapter-3/2-mark-answers.pdf",
+                  "description": "Model study resource"
+                },
+                {
+                  "type": "10-mark-answers",
+                  "title": "10-mark Question Answers PDF",
+                  "path": "documents/DSC-102/Unit-1/Chapter-3/10-mark-answers.pdf",
+                  "description": "Model study resource"
+                },
+                {
+                  "type": "pyqs",
+                  "title": "Previous Year Questions (PYQs) PDF",
+                  "path": "documents/DSC-102/Unit-1/Chapter-3/pyqs.pdf",
+                  "description": "Verified PYQs only; currently none uploaded"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Federalism",
+          "chapters": [
+            {
+              "id": 1,
+              "title": "Nature of Indian federalism",
+              "topics": [
+                "Nature of Indian federalism"
+              ],
+              "resources": [
+                {
+                  "type": "detailed-notes",
+                  "title": "Chapter-wise Detailed Notes PDF",
+                  "path": "documents/DSC-102/Unit-2/Chapter-1/detailed-notes.pdf",
+                  "description": "Model study resource"
+                },
+                {
+                  "type": "2-mark-answers",
+                  "title": "2-mark Question Answers PDF",
+                  "path": "documents/DSC-102/Unit-2/Chapter-1/2-mark-answers.pdf",
+                  "description": "Model study resource"
+                },
+                {
+                  "type": "10-mark-answers",
+                  "title": "10-mark Question Answers PDF",
+                  "path": "documents/DSC-102/Unit-2/Chapter-1/10-mark-answers.pdf",
+                  "description": "Model study resource"
+                },
+                {
+                  "type": "pyqs",
+                  "title": "Previous Year Questions (PYQs) PDF",
+                  "path": "documents/DSC-102/Unit-2/Chapter-1/pyqs.pdf",
+                  "description": "Verified PYQs only; currently none uploaded"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "title": "Union–State relations",
+              "topics": [
+                "Union–State relations"
+              ],
+              "resources": [
+                {
+                  "type": "detailed-notes",
+                  "title": "Chapter-wise Detailed Notes PDF",
+                  "path": "documents/DSC-102/Unit-2/Chapter-2/detailed-notes.pdf",
+                  "description": "Model study resource"
+                },
+                {
+                  "type": "2-mark-answers",
+                  "title": "2-mark Question Answers PDF",
+                  "path": "documents/DSC-102/Unit-2/Chapter-2/2-mark-answers.pdf",
+                  "description": "Model study resource"
+                },
+                {
+                  "type": "10-mark-answers",
+                  "title": "10-mark Question Answers PDF",
+                  "path": "documents/DSC-102/Unit-2/Chapter-2/10-mark-answers.pdf",
+                  "description": "Model study resource"
+                },
+                {
+                  "type": "pyqs",
+                  "title": "Previous Year Questions (PYQs) PDF",
+                  "path": "documents/DSC-102/Unit-2/Chapter-2/pyqs.pdf",
+                  "description": "Verified PYQs only; currently none uploaded"
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "title": "Sarkaria Commission and Punchhi Commission",
+              "topics": [
+                "Sarkaria Commission and Punchhi Commission"
+              ],
+              "resources": [
+                {
+                  "type": "detailed-notes",
+                  "title": "Chapter-wise Detailed Notes PDF",
+                  "path": "documents/DSC-102/Unit-2/Chapter-3/detailed-notes.pdf",
+                  "description": "Model study resource"
+                },
+                {
+                  "type": "2-mark-answers",
+                  "title": "2-mark Question Answers PDF",
+                  "path": "documents/DSC-102/Unit-2/Chapter-3/2-mark-answers.pdf",
+                  "description": "Model study resource"
+                },
+                {
+                  "type": "10-mark-answers",
+                  "title": "10-mark Question Answers PDF",
+                  "path": "documents/DSC-102/Unit-2/Chapter-3/10-mark-answers.pdf",
+                  "description": "Model study resource"
+                },
+                {
+                  "type": "pyqs",
+                  "title": "Previous Year Questions (PYQs) PDF",
+                  "path": "documents/DSC-102/Unit-2/Chapter-3/pyqs.pdf",
+                  "description": "Verified PYQs only; currently none uploaded"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Executive",
+          "chapters": [
+            {
+              "id": 1,
+              "title": "President: election, impeachment, powers and functions",
+              "topics": [
+                "President: election, impeachment, powers and functions"
+              ],
+              "resources": [
+                {
+                  "type": "detailed-notes",
+                  "title": "Chapter-wise Detailed Notes PDF",
+                  "path": "documents/DSC-102/Unit-3/Chapter-1/detailed-notes.pdf",
+                  "description": "Model study resource"
+                },
+                {
+                  "type": "2-mark-answers",
+                  "title": "2-mark Question Answers PDF",
+                  "path": "documents/DSC-102/Unit-3/Chapter-1/2-mark-answers.pdf",
+                  "description": "Model study resource"
+                },
+                {
+                  "type": "10-mark-answers",
+                  "title": "10-mark Question Answers PDF",
+                  "path": "documents/DSC-102/Unit-3/Chapter-1/10-mark-answers.pdf",
+                  "description": "Model study resource"
+                },
+                {
+                  "type": "pyqs",
+                  "title": "Previous Year Questions (PYQs) PDF",
+                  "path": "documents/DSC-102/Unit-3/Chapter-1/pyqs.pdf",
+                  "description": "Verified PYQs only; currently none uploaded"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "title": "Prime Minister: appointment, role and functions",
+              "topics": [
+                "Prime Minister: appointment, role and functions"
+              ],
+              "resources": [
+                {
+                  "type": "detailed-notes",
+                  "title": "Chapter-wise Detailed Notes PDF",
+                  "path": "documents/DSC-102/Unit-3/Chapter-2/detailed-notes.pdf",
+                  "description": "Model study resource"
+                },
+                {
+                  "type": "2-mark-answers",
+                  "title": "2-mark Question Answers PDF",
+                  "path": "documents/DSC-102/Unit-3/Chapter-2/2-mark-answers.pdf",
+                  "description": "Model study resource"
+                },
+                {
+                  "type": "10-mark-answers",
+                  "title": "10-mark Question Answers PDF",
+                  "path": "documents/DSC-102/Unit-3/Chapter-2/10-mark-answers.pdf",
+                  "description": "Model study resource"
+                },
+                {
+                  "type": "pyqs",
+                  "title": "Previous Year Questions (PYQs) PDF",
+                  "path": "documents/DSC-102/Unit-3/Chapter-2/pyqs.pdf",
+                  "description": "Verified PYQs only; currently none uploaded"
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "title": "Union Council of Ministers: composition, powers and functions",
+              "topics": [
+                "Union Council of Ministers: composition, powers and functions"
+              ],
+              "resources": [
+                {
+                  "type": "detailed-notes",
+                  "title": "Chapter-wise Detailed Notes PDF",
+                  "path": "documents/DSC-102/Unit-3/Chapter-3/detailed-notes.pdf",
+                  "description": "Model study resource"
+                },
+                {
+                  "type": "2-mark-answers",
+                  "title": "2-mark Question Answers PDF",
+                  "path": "documents/DSC-102/Unit-3/Chapter-3/2-mark-answers.pdf",
+                  "description": "Model study resource"
+                },
+                {
+                  "type": "10-mark-answers",
+                  "title": "10-mark Question Answers PDF",
+                  "path": "documents/DSC-102/Unit-3/Chapter-3/10-mark-answers.pdf",
+                  "description": "Model study resource"
+                },
+                {
+                  "type": "pyqs",
+                  "title": "Previous Year Questions (PYQs) PDF",
+                  "path": "documents/DSC-102/Unit-3/Chapter-3/pyqs.pdf",
+                  "description": "Verified PYQs only; currently none uploaded"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Legislature and Judiciary",
+          "chapters": [
+            {
+              "id": 1,
+              "title": "Parliament: composition, powers and functions",
+              "topics": [
+                "Parliament: composition, powers and functions"
+              ],
+              "resources": [
+                {
+                  "type": "detailed-notes",
+                  "title": "Chapter-wise Detailed Notes PDF",
+                  "path": "documents/DSC-102/Unit-4/Chapter-1/detailed-notes.pdf",
+                  "description": "Model study resource"
+                },
+                {
+                  "type": "2-mark-answers",
+                  "title": "2-mark Question Answers PDF",
+                  "path": "documents/DSC-102/Unit-4/Chapter-1/2-mark-answers.pdf",
+                  "description": "Model study resource"
+                },
+                {
+                  "type": "10-mark-answers",
+                  "title": "10-mark Question Answers PDF",
+                  "path": "documents/DSC-102/Unit-4/Chapter-1/10-mark-answers.pdf",
+                  "description": "Model study resource"
+                },
+                {
+                  "type": "pyqs",
+                  "title": "Previous Year Questions (PYQs) PDF",
+                  "path": "documents/DSC-102/Unit-4/Chapter-1/pyqs.pdf",
+                  "description": "Verified PYQs only; currently none uploaded"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "title": "Relationship between Lok Sabha and Rajya Sabha",
+              "topics": [
+                "Relationship between Lok Sabha and Rajya Sabha"
+              ],
+              "resources": [
+                {
+                  "type": "detailed-notes",
+                  "title": "Chapter-wise Detailed Notes PDF",
+                  "path": "documents/DSC-102/Unit-4/Chapter-2/detailed-notes.pdf",
+                  "description": "Model study resource"
+                },
+                {
+                  "type": "2-mark-answers",
+                  "title": "2-mark Question Answers PDF",
+                  "path": "documents/DSC-102/Unit-4/Chapter-2/2-mark-answers.pdf",
+                  "description": "Model study resource"
+                },
+                {
+                  "type": "10-mark-answers",
+                  "title": "10-mark Question Answers PDF",
+                  "path": "documents/DSC-102/Unit-4/Chapter-2/10-mark-answers.pdf",
+                  "description": "Model study resource"
+                },
+                {
+                  "type": "pyqs",
+                  "title": "Previous Year Questions (PYQs) PDF",
+                  "path": "documents/DSC-102/Unit-4/Chapter-2/pyqs.pdf",
+                  "description": "Verified PYQs only; currently none uploaded"
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "title": "Supreme Court: composition and jurisdiction",
+              "topics": [
+                "Supreme Court: composition and jurisdiction"
+              ],
+              "resources": [
+                {
+                  "type": "detailed-notes",
+                  "title": "Chapter-wise Detailed Notes PDF",
+                  "path": "documents/DSC-102/Unit-4/Chapter-3/detailed-notes.pdf",
+                  "description": "Model study resource"
+                },
+                {
+                  "type": "2-mark-answers",
+                  "title": "2-mark Question Answers PDF",
+                  "path": "documents/DSC-102/Unit-4/Chapter-3/2-mark-answers.pdf",
+                  "description": "Model study resource"
+                },
+                {
+                  "type": "10-mark-answers",
+                  "title": "10-mark Question Answers PDF",
+                  "path": "documents/DSC-102/Unit-4/Chapter-3/10-mark-answers.pdf",
+                  "description": "Model study resource"
+                },
+                {
+                  "type": "pyqs",
+                  "title": "Previous Year Questions (PYQs) PDF",
+                  "path": "documents/DSC-102/Unit-4/Chapter-3/pyqs.pdf",
+                  "description": "Verified PYQs only; currently none uploaded"
+                }
+              ]
+            },
+            {
+              "id": 4,
+              "title": "Judicial review and judicial activism",
+              "topics": [
+                "Judicial review and judicial activism"
+              ],
+              "resources": [
+                {
+                  "type": "detailed-notes",
+                  "title": "Chapter-wise Detailed Notes PDF",
+                  "path": "documents/DSC-102/Unit-4/Chapter-4/detailed-notes.pdf",
+                  "description": "Model study resource"
+                },
+                {
+                  "type": "2-mark-answers",
+                  "title": "2-mark Question Answers PDF",
+                  "path": "documents/DSC-102/Unit-4/Chapter-4/2-mark-answers.pdf",
+                  "description": "Model study resource"
+                },
+                {
+                  "type": "10-mark-answers",
+                  "title": "10-mark Question Answers PDF",
+                  "path": "documents/DSC-102/Unit-4/Chapter-4/10-mark-answers.pdf",
+                  "description": "Model study resource"
+                },
+                {
+                  "type": "pyqs",
+                  "title": "Previous Year Questions (PYQs) PDF",
+                  "path": "documents/DSC-102/Unit-4/Chapter-4/pyqs.pdf",
+                  "description": "Verified PYQs only; currently none uploaded"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Local-level Institutions",
+          "chapters": [
+            {
+              "id": 1,
+              "title": "Panchayati Raj Institutions",
+              "topics": [
+                "Panchayati Raj Institutions"
+              ],
+              "resources": [
+                {
+                  "type": "detailed-notes",
+                  "title": "Chapter-wise Detailed Notes PDF",
+                  "path": "documents/DSC-102/Unit-5/Chapter-1/detailed-notes.pdf",
+                  "description": "Model study resource"
+                },
+                {
+                  "type": "2-mark-answers",
+                  "title": "2-mark Question Answers PDF",
+                  "path": "documents/DSC-102/Unit-5/Chapter-1/2-mark-answers.pdf",
+                  "description": "Model study resource"
+                },
+                {
+                  "type": "10-mark-answers",
+                  "title": "10-mark Question Answers PDF",
+                  "path": "documents/DSC-102/Unit-5/Chapter-1/10-mark-answers.pdf",
+                  "description": "Model study resource"
+                },
+                {
+                  "type": "pyqs",
+                  "title": "Previous Year Questions (PYQs) PDF",
+                  "path": "documents/DSC-102/Unit-5/Chapter-1/pyqs.pdf",
+                  "description": "Verified PYQs only; currently none uploaded"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "title": "Urban Local Bodies",
+              "topics": [
+                "Urban Local Bodies"
+              ],
+              "resources": [
+                {
+                  "type": "detailed-notes",
+                  "title": "Chapter-wise Detailed Notes PDF",
+                  "path": "documents/DSC-102/Unit-5/Chapter-2/detailed-notes.pdf",
+                  "description": "Model study resource"
+                },
+                {
+                  "type": "2-mark-answers",
+                  "title": "2-mark Question Answers PDF",
+                  "path": "documents/DSC-102/Unit-5/Chapter-2/2-mark-answers.pdf",
+                  "description": "Model study resource"
+                },
+                {
+                  "type": "10-mark-answers",
+                  "title": "10-mark Question Answers PDF",
+                  "path": "documents/DSC-102/Unit-5/Chapter-2/10-mark-answers.pdf",
+                  "description": "Model study resource"
+                },
+                {
+                  "type": "pyqs",
+                  "title": "Previous Year Questions (PYQs) PDF",
+                  "path": "documents/DSC-102/Unit-5/Chapter-2/pyqs.pdf",
+                  "description": "Verified PYQs only; currently none uploaded"
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "title": "Sixth Schedule administration of Dima Hasao and Karbi Anglong districts in Assam",
+              "topics": [
+                "Sixth Schedule administration of Dima Hasao and Karbi Anglong districts in Assam"
+              ],
+              "resources": [
+                {
+                  "type": "detailed-notes",
+                  "title": "Chapter-wise Detailed Notes PDF",
+                  "path": "documents/DSC-102/Unit-5/Chapter-3/detailed-notes.pdf",
+                  "description": "Model study resource"
+                },
+                {
+                  "type": "2-mark-answers",
+                  "title": "2-mark Question Answers PDF",
+                  "path": "documents/DSC-102/Unit-5/Chapter-3/2-mark-answers.pdf",
+                  "description": "Model study resource"
+                },
+                {
+                  "type": "10-mark-answers",
+                  "title": "10-mark Question Answers PDF",
+                  "path": "documents/DSC-102/Unit-5/Chapter-3/10-mark-answers.pdf",
+                  "description": "Model study resource"
+                },
+                {
+                  "type": "pyqs",
+                  "title": "Previous Year Questions (PYQs) PDF",
+                  "path": "documents/DSC-102/Unit-5/Chapter-3/pyqs.pdf",
+                  "description": "Verified PYQs only; currently none uploaded"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
